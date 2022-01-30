@@ -1,0 +1,2 @@
+# learn-java
+This is a repository outlining concepts of the java programming language. It is designed to help people with some coding experience quickly pick up the java syntax and features. It not only contains useful examples but also links to awesome recources for further detail. In the future I might add more detailed explanations to certain areas if I see a need to do so. Thank you very much for checking out my repo!
