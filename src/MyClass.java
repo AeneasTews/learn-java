@@ -49,5 +49,77 @@ public class MyClass
         System.out.println(character);
         s = "string";
         System.out.println("This is a concatenated " + s);
+
+        //Conditional Statements
+        boolean condition = true;
+        if (condition) {
+            System.out.println("Condition is true");
+        }
+        if (condition)
+            System.out.println("Short statement");
+        /*
+        comparison operators:
+        <
+        >
+        <=
+        >=
+        !=
+        ==
+         */
+
+        if (!condition)
+        {
+            System.out.println("This will never run");
+        } else
+        {
+            System.out.println("This will run!");
+        }
+
+        if (condition)
+        {
+            if (condition)
+            {
+                System.out.println("This is a nested statement");
+            }
+        }
+
+        if (!condition)
+        {
+            System.out.println("This will also never run, so I am wondering why I am even typing this?");
+        } else if (condition)
+        {
+            System.out.println("This uses else if to check, I can also add another else statement or more else if statements if I like");
+        } else {
+            System.out.println("This is also never going to run");
+        }
+
+        if (condition && condition)
+        {
+            if (condition || condition)
+            {
+                System.out.println("The and operator and the or operator are used like in most other languages. The not operator was used previously.");
+            }
+        }
+
+        int test = 45;
+        switch (test)
+            {
+            case 46:
+                System.out.println("Never gonna give yo .. ups, run!");
+                break;
+            case 45:
+                System.out.println("This is gonna run!");
+                break;
+            default:
+                System.out.println("If I didn't have the break statement in the previous case, it would run this statement as well");
+            }
+
+        int day = 4;
+        String dayType = switch(day)
+                {
+                case 1, 2, 3, 4, 5 -> "Working day";
+                case 6, 7 -> "Weekend";
+                default -> "did you break time??";
+                };
     }
 }
