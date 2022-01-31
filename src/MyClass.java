@@ -121,5 +121,39 @@ public class MyClass
                 case 6, 7 -> "Weekend";
                 default -> "did you break time??";
                 };
+
+        //Loops
+        int l = 3;
+
+        while(l > 3) {
+            System.out.println(l);
+            l--;
+        }
+
+        for (int i = 0; i < 5; i++) {
+            System.out.println(i);
+        }
+
+        int i = 0;
+
+        do {
+            System.out.println(i);
+            i++;
+        } while (i < 5);
+
+        for (i = 0; i < 5; i++) {
+            if (i == 3) {
+                break;
+            }
+            System.out.println(i);
+        }
+        System.out.println("Broke loop");
+
+        for (i = 0; i < 5; i++) {
+            if (i == 3) {
+                continue;
+            }
+            System.out.println(i);
+        }
     }
 }
