@@ -41,5 +41,13 @@ public class MyClass
         z *= 9;
         z /= 2;
         z %= 3;
+        
+        //Strings
+        String s = "This is a string";
+        char character = 'a';
+        System.out.println(s);
+        System.out.println(character);
+        s = "string";
+        System.out.println("This is a concatenated " + s);
     }
 }
