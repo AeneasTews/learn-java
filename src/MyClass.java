@@ -155,5 +155,21 @@ public class MyClass
             }
             System.out.println(i);
         }
+
+        //Arrays
+        int[] arr = new int[5];
+        arr[2] = 32;
+
+        String[] sArr = {"Hello", "world", "!"};
+        System.out.println(sArr[2]);
+        System.out.println(sArr.length);
+
+
+        //Enhanced for loop
+        int[] primes = {2, 3, 5, 7, 11};
+
+        for (int t: primes) {
+            System.out.println(t);
+        }
     }
 }
