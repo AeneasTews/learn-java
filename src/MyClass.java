@@ -1,3 +1,4 @@
+import sample.Animal;
 import java.util.Scanner;
 
 public class MyClass
@@ -171,5 +172,9 @@ public class MyClass
         for (int t: primes) {
             System.out.println(t);
         }
+
+        //Classes and Objects
+        Animal dog = new Animal();
+        dog.bark();
     }
 }
